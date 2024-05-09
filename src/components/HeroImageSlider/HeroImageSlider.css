@@ -1,0 +1,125 @@
+
+
+.slider{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+};
+
+.slide-active{
+    /* position: absolute; */
+    width: 100%;
+    height: 100%;
+};
+
+.slide-next{
+    /* position: absolute; */
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.slide-next .slide-next-img{
+    width: 250px;
+    height: 350px
+}
+/* .animated-title {
+    color: #222;
+    font-family: Roboto, Arial, sans-serif;
+    height: 35vmin;
+    left: 2em;
+    position: absolute;
+    bottom: 0;
+    width: 90vmin;
+}
+  .animated-title > div {
+    height: 50%;
+    overflow: hidden;
+    position: absolute;
+    width: 100%;
+  }
+  .animated-title > div div {
+    text-transform: uppercase;
+    font-size: 2em;
+    padding: 2vmin 0;
+    position: absolute;
+  }
+  .animated-title > div div span {
+    display: block;
+  }
+  .animated-title > div.text-top {
+    border-bottom: 1vmin solid #000;
+    top: 0;
+    width: 50%;
+  }
+  .animated-title > .text-top div {
+    animation: showTopText 1s;
+    animation-delay: 0.5s;
+    animation-fill-mode: forwards;
+    bottom: 0;
+    transform: translate(0, 100%);
+  }
+  .animated-title > div.text-top div span:first-child {
+    color: #767676;
+  }
+  .animated-title > div.text-bottom {
+    bottom: 0;
+  }
+.animated-title > .text-bottom div {
+    animation: showBottomText 0.5s;
+    animation-delay: 1.75s;
+    animation-fill-mode: forwards;
+    top: 0;
+    transform: translate(0, -100%);
+} */
+
+/* .img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.slide-next-img{
+    width:250px;
+    height:350px;
+    clip-path: polygon(50% 50%, 50% 50%, 50% 50%, 50% 50% );
+} */
+
+/* .slider-content{
+    position: absolute;
+    left: 1em;
+    bottom: 0;
+    width: 100%;
+    height: 175px;
+    overflow: hidden;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+}
+
+.slider-content-active{
+    position: absolute;
+    top: 0;
+    left: 0;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+}
+
+.slider-content-next{
+    position: absolute;
+    top: 200px;
+    left: 0;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+}
+@keyframes showTopText {
+    0% { transform: translate3d(0, 100%, 0); }
+    40%, 60% { transform: translate3d(0, 50%, 0); }
+    100% { transform: translate3d(0, 0, 0); }
+}
+@keyframes showBottomText {
+    0% { transform: translate3d(0, -100%, 0); }
+    100% { transform: translate3d(0, 0, 0); }
+} */
+
